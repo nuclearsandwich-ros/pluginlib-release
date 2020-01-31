@@ -1,0 +1,13 @@
+Source: ros-turbulent-pluginlib
+Section: misc
+Priority: extra
+Maintainer: Steven! Ragnarök <stevenragnarok@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-index-cpp, ros-turbulent-class-loader, ros-turbulent-rcutils, ros-turbulent-tinyxml2-vendor, ros-turbulent-ros-workspace
+Homepage: http://www.ros.org/wiki/pluginlib
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-pluginlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-index-cpp, ros-turbulent-class-loader, ros-turbulent-rcutils, ros-turbulent-tinyxml2-vendor, ros-turbulent-ros-workspace
+Description: The pluginlib package provides tools for writing and dynamically loading plugins using the ROS build infrastructure.
+ To work, these tools require plugin providers to register their plugins in the package.xml of their package.
