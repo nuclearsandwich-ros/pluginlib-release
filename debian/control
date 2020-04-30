@@ -1,0 +1,13 @@
+Source: ros-verystable-pluginlib
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <stevenragnarok@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-gtest, ros-verystable-ament-index-cpp, ros-verystable-class-loader, ros-verystable-rcutils, ros-verystable-tinyxml2-vendor, ros-verystable-ros-workspace
+Homepage: http://www.ros.org/wiki/pluginlib
+Standards-Version: 3.9.2
+
+Package: ros-verystable-pluginlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-index-cpp, ros-verystable-class-loader, ros-verystable-rcutils, ros-verystable-tinyxml2-vendor, ros-verystable-ros-workspace
+Description: The pluginlib package provides tools for writing and dynamically loading plugins using the ROS build infrastructure.
+ To work, these tools require plugin providers to register their plugins in the package.xml of their package.
