@@ -1,1 +1,1 @@
-{"trim": "", "base": "9ba5133", "trimbase": "", "parent": "debian/foxy/pluginlib", "previous": "6550e2a"}
+{"base": "2822cb3", "parent": "debian/testing/pluginlib", "previous": "914605a", "trim": "", "trimbase": ""}
